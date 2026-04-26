@@ -13,15 +13,15 @@ const moments = [
   {
     id: 2,
     src: "/HappyMoments/hm2.jpeg",
-    label: "Mehta Family Reception",
-    category: "Reception",
+    label: "Mehta Family Wedding",
+    category: "Wedding",
     size: "normal",
   },
   {
     id: 4,
     src: "/HappyMoments/hm3.jpeg",
-    label: "TechCorp Annual Gala",
-    category: "Corporate",
+    label: "Reception of Rohan & Anika",
+    category: "Reception",
     size: "wide",
   },
   {
@@ -34,7 +34,7 @@ const moments = [
   {
     id: 7,
     src: "/HappyMoments/hm4.jpeg",
-    label: "Kumar Baby Shower",
+    label: "Birthday Bash for Aarav",
     category: "Celebration",
     size: "normal",
   },

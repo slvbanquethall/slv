@@ -398,11 +398,27 @@ export default function BanquetHallWebsite() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {[
-              { icon: "LC", title: "Live Counters", desc: "Dosa, Chaat, Grill, and Pasta stations manned by expert chefs for theatrical, interactive dining." },
-              { icon: "CM", title: "Custom Menus", desc: "Fully bespoke menus designed around your culture, dietary needs, and personal taste profile." },
-              { icon: "OC", title: "Outdoor Catering", desc: "Fully equipped mobile kitchen setups for farmhouses, resorts, and destination events." },
-              { icon: "BB", title: "Beverage Bars", desc: "Mocktail bars, fresh juice counters, and premium beverage curation for every occasion." },
-            ].map((s, i) => (
+  { 
+    icon: "LC", 
+    title: "Live Counters", 
+    desc: "Dosa, chaat, grill, and pasta stations manned by expert chefs for interactive, live dining experiences." 
+  },
+  { 
+    icon: "CM", 
+    title: "Custom Menus", 
+    desc: "Fully bespoke menus crafted around your culture, preferences, and dietary requirements." 
+  },
+  { 
+    icon: "OC", 
+    title: "Outdoor Catering", 
+    desc: "Complete mobile kitchen setups ideal for farmhouses, resorts, and destination events." 
+  },
+  { 
+    icon: "IC", 
+    title: "Ice Creams", 
+    desc: "A delightful range of flavors including Vanilla, Strawberry, and Butterscotch, served as a perfect sweet ending." 
+  },
+].map((s, i) => (
               <div
                 key={i}
                 className="hover-lift p-6 md:p-8 rounded-2xl border text-center group"
