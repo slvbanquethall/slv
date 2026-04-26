@@ -1,8 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
-
+import { useState } from 'react';import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 export default function Footer() {
   const [email, setEmail] = useState('');
 
@@ -349,10 +348,10 @@ export default function Footer() {
           }}
         >
           {[
-            { icon: 'f', href: 'https://facebook.com', label: 'Facebook' },
-            { icon: '𝕏', href: 'https://twitter.com', label: 'Twitter' },
-            { icon: '📷', href: 'https://instagram.com', label: 'Instagram' },
-            { icon: 'in', href: 'https://linkedin.com', label: 'LinkedIn' },
+            { Icon: FaFacebook, href: 'https://facebook.com', label: 'Facebook' },
+            { Icon: FaTwitter, href: 'https://twitter.com', label: 'Twitter' },
+            { Icon: FaInstagram, href: 'https://instagram.com', label: 'Instagram' },
+            { Icon: FaLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
           ].map((social) => (
             <a
               key={social.label}
@@ -372,8 +371,6 @@ export default function Footer() {
                 color: '#d4a017',
                 textDecoration: 'none',
                 transition: 'all 0.2s ease',
-                fontWeight: 700,
-                fontSize: '18px',
               }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLAnchorElement;
@@ -386,7 +383,7 @@ export default function Footer() {
                 el.style.color = '#d4a017';
               }}
             >
-              {social.icon}
+              <social.Icon size={20} />
             </a>
           ))}
         </div>

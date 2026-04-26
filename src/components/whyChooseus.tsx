@@ -355,44 +355,7 @@ export default function PremierElegance() {
         </div>
 
         {/* Bottom CTA */}
-        <div style={{ textAlign: 'center', marginTop: '56px' }}>
-          <a
-            href="/contact"
-            style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '10px',
-              padding: '15px 40px',
-              backgroundColor: 'transparent',
-              border: '1px solid #d4a017',
-              color: '#d4a017',
-              textDecoration: 'none',
-              fontSize: '13px',
-              fontFamily: "'Helvetica Neue', Arial, sans-serif",
-              fontWeight: 600,
-              letterSpacing: '0.12em',
-              textTransform: 'uppercase',
-              borderRadius: '2px',
-              transition: 'background-color 0.25s ease, color 0.25s ease',
-            }}
-            onMouseEnter={(e) => {
-              const el = e.currentTarget as HTMLAnchorElement;
-              el.style.backgroundColor = '#d4a017';
-              el.style.color = '#000';
-            }}
-            onMouseLeave={(e) => {
-              const el = e.currentTarget as HTMLAnchorElement;
-              el.style.backgroundColor = 'transparent';
-              el.style.color = '#d4a017';
-            }}
-          >
-            Plan Your Event
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12" />
-              <polyline points="12 5 19 12 12 19" />
-            </svg>
-          </a>
-        </div>
+
       </section>
 
       {/* WhatsApp floating button */}

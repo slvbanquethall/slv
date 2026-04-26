@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 
 const moments = [
   {
@@ -196,6 +197,7 @@ function MomentCard({ m, index }: { m: typeof moments[0]; index: number }) {
 }
 
 export default function HappyMoments() {
+  const router = useRouter();
   const sectionRef = useRef<HTMLDivElement>(null);
   const [counterStarted, setCounterStarted] = useState(false);
 
@@ -451,6 +453,7 @@ export default function HappyMoments() {
               Your celebration deserves to be in this gallery.
             </p>
             <button
+              onClick={() => router.push('/contact')}
               className="text-xs uppercase tracking-widest px-8 py-3.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:opacity-90"
               style={{ background: "#C9974B", color: "#0d0a05" }}
             >
