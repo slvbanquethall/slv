@@ -48,7 +48,7 @@ export default function HappyMoments() {
       <style>{`
         .hm-grid {
           display: grid;
-          grid-template-columns: repeat(2, 1fr); /* 🔥 mobile 2 cols */
+          grid-template-columns: repeat(2, 1fr);
           gap: 12px;
           grid-auto-rows: 180px;
         }
@@ -78,6 +78,34 @@ export default function HappyMoments() {
       `}</style>
 
       <section className="py-16 px-4 sm:px-10 bg-[#0d0a05]">
+
+        {/* 🔥 HEADER BACK */}
+        <div className="text-center mb-14 fadeUp">
+          <span
+            className="text-xs uppercase tracking-[0.35em] font-semibold"
+            style={{ color: "#C9974B" }}
+          >
+            ✦ Memories We Made Together ✦
+          </span>
+
+          <h2
+            className="text-3xl sm:text-5xl md:text-6xl font-black text-white mt-4 mb-3"
+            style={{ fontFamily: "'Playfair Display', serif" }}
+          >
+            Happy{" "}
+            <span style={{ color: "#C9974B" }}>
+              Moments
+            </span>
+          </h2>
+
+          <p className="text-white/50 max-w-md mx-auto text-sm sm:text-base font-light leading-relaxed">
+            Every celebration leaves behind a story. Here are glimpses of the joy we've had the honour of hosting.
+          </p>
+
+          <div className="w-16 h-px mx-auto mt-6 bg-[#C9974B]" />
+        </div>
+
+        {/* 🔥 GRID */}
         <div className="hm-grid">
 
           {moments.map((m, i) => {
