@@ -366,7 +366,7 @@ export default function BanquetHallWebsite() {
           {[
             { num: "200+", label: "Events Hosted" },
             { num: "20+", label: "Signature Dishes" },
-            { num: "5", label: "Years of Legacy" },
+            { num: "5+", label: "Years of Legacy" },
             { num: "100%", label: "Satisfaction" },
           ].map((s, i) => (
             <div key={i}>

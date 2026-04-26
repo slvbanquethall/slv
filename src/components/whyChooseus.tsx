@@ -290,9 +290,9 @@ export default function PremierElegance() {
           }}
         >
           {[
-            { value: '5000+', label: 'Events Hosted' },
+            { value: '200+', label: 'Events Hosted' },
             { value: '2', label: 'Elegant Halls' },
-            { value: '15+', label: 'Years of Trust' },
+            { value: '5+', label: 'Years of Trust' },
             { value: '1500', label: 'Seating Capacity' },
           ].map((stat) => (
             <div key={stat.label} style={{ textAlign: 'center' }}>
