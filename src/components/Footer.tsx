@@ -208,7 +208,7 @@ export default function Footer() {
               }}
             >
               <a
-                href="tel:+918003000123"
+                href="tel:+91 90523 41300"
                 style={{
                   color: 'rgba(255,255,255,0.7)',
                   textDecoration: 'none',
@@ -222,7 +222,7 @@ export default function Footer() {
                   (e.currentTarget as HTMLAnchorElement).style.color = 'rgba(255,255,255,0.7)';
                 }}
               >
-                📞 +91 800-300-0123
+                📞 +91 90523 41300
               </a>
               <a
                 href="mailto:info@slvbanquets.com"
@@ -239,17 +239,17 @@ export default function Footer() {
                   (e.currentTarget as HTMLAnchorElement).style.color = 'rgba(255,255,255,0.7)';
                 }}
               >
-                ✉️ info@slvbanquets.com
+                ✉️ slvbanquethall@gmail.com
               </a>
               <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: '14px' }}>
-                📍 Banquet Hall, Your City
+                📍SLV Banquet Halls,Falcon One Shopping Plaza, Rainbow Meadows, Krishna Reddy Pet, Hyderabad, Rendlagadda, Telangana 502319 
               </div>
             </div>
           </div>
         </div>
 
         {/* Newsletter Section */}
-        <div
+{/*         <div
           style={{
             backgroundColor: 'rgba(212,160,23,0.1)',
             border: '1px solid rgba(212,160,23,0.3)',
@@ -337,7 +337,7 @@ export default function Footer() {
               Subscribe
             </button>
           </form>
-        </div>
+        </div> */}
 
         {/* Social Links */}
         <div

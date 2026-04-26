@@ -16,12 +16,12 @@ const videos: VideoCard[] = [
     poster: '/images/venue-thumb-1.jpg',
     label: 'Grand Banquet Hall',
   },
-  {
+/*   {
     id: 2,
-    src: '/whychooseus1.mp4',
+    src: '/whychooseus2.mp4',
     poster: '/images/venue-thumb-2.jpg',
     label: 'Convention Centre',
-  },
+  }, */
 ];
 
 function VideoCard({ video }: { video: VideoCard }) {
@@ -60,9 +60,8 @@ function VideoCard({ video }: { video: VideoCard }) {
           : '0 16px 48px rgba(0,0,0,0.5)',
         transition: 'box-shadow 0.4s ease, transform 0.4s ease',
         transform: hovered ? 'translateY(-6px) scale(1.01)' : 'translateY(0) scale(1)',
-        flex: '1 1 320px',
-        minWidth: '280px',
-        maxWidth: '700px',
+        width: '80vw',
+        maxWidth: '100%',
       }}
       onClick={handlePlay}
       role="button"
@@ -126,7 +125,7 @@ function VideoCard({ video }: { video: VideoCard }) {
           backdropFilter: 'blur(8px)',
           border: '2px solid rgba(255,255,255,0.25)',
           transition: 'transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease',
-          opacity: playing && !hovered ? 0 : 1,
+          opacity: hovered ? 0 : (playing ? 0 : 1),
           zIndex: 3,
         }}
       >
@@ -343,8 +342,11 @@ export default function PremierElegance() {
             flexWrap: 'wrap',
             justifyContent: 'center',
             alignItems: 'stretch',
-            maxWidth: '1400px',
-            margin: '0 auto',
+            width: '100vw',
+            marginLeft: 'calc(-50vw + 50%)',
+            paddingLeft: '10vw',
+            paddingRight: '10vw',
+            boxSizing: 'border-box',
           }}
         >
           {videos.map((video) => (

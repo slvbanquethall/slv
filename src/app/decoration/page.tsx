@@ -283,7 +283,7 @@ export default function DecorationCatalog() {
           className="text-white/55 text-sm md:text-base max-w-md mx-auto leading-relaxed font-light px-6 animate-fade-up"
           style={{ animationDelay: "0.4s" }}
         >
-          Browse our handcrafted décor collections — each style thoughtfully designed to transform your venue into a living masterpiece.
+          Browse our handcrafted decor collections — each style thoughtfully designed to transform your venue into a living masterpiece.
         </p>
 
         <div

@@ -6,7 +6,7 @@ import Link from 'next/link';
 const slides = [
   {
     id: 1,
-    image: '/hero1.png',
+    image: '/HERO1.png',
     title: 'SLV Banquet Hall',
     subtitle: 'Premium Venue for Your Special Events',
     tag: 'Weddings & Celebrations',

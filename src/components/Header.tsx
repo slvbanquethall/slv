@@ -197,7 +197,7 @@ export default function Header() {
               >
                 <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" />
               </svg>
-              +91 8003000123
+              +91 90523 41300
             </a>
 
             <a
@@ -346,7 +346,7 @@ export default function Header() {
             {/* Mobile contact info */}
             <li style={{ padding: '16px 28px 4px', borderTop: '1px solid rgba(212,160,23,0.15)' }}>
               <a
-                href="tel:+918003000123"
+                href="tel:+91 90523 41300"
                 style={{
                   display: 'flex',
                   alignItems: 'center',
@@ -361,7 +361,7 @@ export default function Header() {
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" />
                 </svg>
-                +91 8003000123
+                +91 90523 41300
               </a>
               <a
                 href="https://instagram.com"
