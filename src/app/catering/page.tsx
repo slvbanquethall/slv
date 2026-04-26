@@ -62,10 +62,10 @@ const galleryImages = [
 ];
 
 const eventVideos = [
-  { poster: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80", label: "Wedding Reception", icon: "" },
-  { poster: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80", label: "Corporate Gala", icon: "" },
-  { poster: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=80", label: "Birthday Soirée", icon: "" },
-  { poster: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80", label: "Festive Feast", icon: "" },
+  { poster: "HERO1.png", label: "Reception", icon: "" },
+  { poster: "data1.jpeg", label: "Wedding", icon: "" },
+  { poster: "HERO5.jpeg", label: "Birthday Soirée", icon: "" },
+  { poster: "data9.jpeg", label: "Festive Feast", icon: "" },
 ];
 
 function MenuCard({ item, index }: { item: typeof menuItems[0]; index: number }) {
@@ -364,9 +364,9 @@ export default function BanquetHallWebsite() {
       <section className="py-10 border-y" style={{ borderColor: "rgba(201,151,75,0.2)", background: "rgba(201,151,75,0.05)" }}>
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center px-6">
           {[
-            { num: "2500+", label: "Events Hosted" },
-            { num: "40+", label: "Signature Dishes" },
-            { num: "15", label: "Years of Legacy" },
+            { num: "200+", label: "Events Hosted" },
+            { num: "20+", label: "Signature Dishes" },
+            { num: "5", label: "Years of Legacy" },
             { num: "100%", label: "Satisfaction" },
           ].map((s, i) => (
             <div key={i}>
