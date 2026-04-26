@@ -19,7 +19,7 @@ const moments = [
   },
   {
     id: 4,
-    src: "/HappyMoments/hm4.jpeg",
+    src: "/HappyMoments/hm3.jpeg",
     label: "TechCorp Annual Gala",
     category: "Corporate",
     size: "wide",
@@ -33,7 +33,7 @@ const moments = [
   },
   {
     id: 7,
-    src: "/HappyMoments/hm3.jpeg",
+    src: "/HappyMoments/hm4.jpeg",
     label: "Kumar Baby Shower",
     category: "Celebration",
     size: "normal",
