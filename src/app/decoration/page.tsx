@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 const decorCategories = [
   "All",
@@ -511,12 +512,14 @@ export default function DecorationCatalog() {
           Tell us your occasion, your palette, your story — and we'll create something extraordinary.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
-            className="px-10 py-4 text-sm uppercase tracking-widest font-semibold rounded-full transition-all duration-300 hover:opacity-90 hover:scale-105"
-            style={{ background: "#C9974B", color: "#0d0a05" }}
-          >
-            Request a Consultation
-          </button>
+          <Link href="/contact">
+            <button
+              className="px-10 py-4 text-sm uppercase tracking-widest font-semibold rounded-full transition-all duration-300 hover:opacity-90 hover:scale-105"
+              style={{ background: "#C9974B", color: "#0d0a05" }}
+            >
+              Request a Consultation
+            </button>
+          </Link>
           <button className="px-10 py-4 text-sm uppercase tracking-widest font-semibold rounded-full border border-amber-500/40 text-amber-400 hover:border-amber-400 transition-all duration-300">
             📞 +91 90523 41300
           </button>
@@ -524,60 +527,7 @@ export default function DecorationCatalog() {
       </section>
 
       {/* ── FOOTER ── */}
-      <footer
-        className="py-10 px-6 md:px-20 border-t"
-        style={{ borderColor: "rgba(201,151,75,0.15)", background: "#080603" }}
-      >
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
-          <div>
-            <h3
-              className="text-2xl font-bold mb-4"
-              style={{ color: "#C9974B", fontFamily: "'Playfair Display', serif" }}
-            >
-              Grand Vivah
-            </h3>
-            <p className="text-white/40 text-sm font-light leading-relaxed">
-              Hyderabad's most celebrated banquet hall and décor studio since 2019.
-            </p>
-          </div>
-          {[
-            {
-              heading: "Décor",
-              links: ["Wedding Décor", "Birthday Setups", "Reception Design", "Corporate Events"],
-            },
-            {
-              heading: "Styles",
-              links: ["Floral Extravaganza", "Lighting & Ambience", "Bohemian", "Royal Classic"],
-            },
-            {
-              heading: "Contact",
-              links: ["Banjara Hills, Hyderabad", "+91 90523 41300", "info@grandvivah.in", "Mon–Sun: 9AM–9PM"],
-            },
-          ].map((col, i) => (
-            <div key={i}>
-              <h4 className="text-xs uppercase tracking-widest text-amber-500 font-semibold mb-4">
-                {col.heading}
-              </h4>
-              <ul className="space-y-2">
-                {col.links.map((l, j) => (
-                  <li
-                    key={j}
-                    className="text-white/40 text-sm font-light hover:text-amber-400 transition-colors duration-200 cursor-pointer"
-                  >
-                    {l}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-        <div
-          className="mt-10 pt-6 border-t text-center text-white/25 text-xs"
-          style={{ borderColor: "rgba(201,151,75,0.1)" }}
-        >
-          © 2025 Grand Vivah Banquet Hall. All rights reserved. Crafted with passion in Hyderabad.
-        </div>
-      </footer>
+
     </div>
   );
 }

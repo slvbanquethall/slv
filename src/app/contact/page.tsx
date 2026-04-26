@@ -10,7 +10,7 @@ const MAP_CONFIG = {
 
 // Google Apps Script deployment URL for form submissions
 const SHEET_URL =
-  "https://script.google.com/macros/s/AKfycbwhwbkw9E0UuvdaA3v95Gr4j1zLSUPdIWzeI0zbqO2WHsT1i4n7MWdILy3dYKYKVVdS/exec";
+  "https://script.google.com/macros/s/AKfycbzZWrqRFSQ5YTG0LthbVXT8VEtWAPrQHPf2wKKRS9Z2piRS3LWIpqLYvu5PJU_nubzZ/exec";
 
 export default function Contact() {
   const [isClient, setIsClient] = useState(false);
