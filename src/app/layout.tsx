@@ -28,25 +28,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://royalbanquethall.com",
-    siteName: "Royal Banquet Hall",
-    title: "SLV Banquet HallS - Premium Event Venue",
-    description: "Book your perfect event at Royal Banquet Hall. Elegant venue for weddings, corporate events, and celebrations.",
+    url: "http://slvbanquethalls.com",
+    siteName: "SLV Banquet Halls",
+    title: "SLV Banquet Halls - Premium Event Venue",
+    description: "Book your perfect event at SLV Banquet Halls. Elegant venue for weddings, corporate events, and celebrations.",
     images: [
       {
         url: "logo.png",
         width: 1200,
         height: 630,
-        alt: "Royal Banquet Hall",
+        alt: "SLV Banquet Halls",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Royal Banquet Hall - Premium Event Venue",
-    description: "Book your perfect event at Royal Banquet Hall.",
-    images: ["https://royalbanquethall.com/og-image.jpg"],
+    title: "SLV Banquet Halls - Premium Event Venue",
+    description: "Book your perfect event at SLV Banquet Halls.",
+    images: ["http://slvbanquethalls.com/og-image.jpg"],
   },
   robots: {
     index: true,
