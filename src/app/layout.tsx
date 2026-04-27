@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   description: "Book your perfect event at Royal Banquet Hall. Elegant venue for weddings, corporate events, and celebrations.",
   keywords: seoKeywords,
   authors: [{ name: "Royal Banquet Hall" }],
+  verification: {
+    google: "jEB4iUD-CW9yF3F49k2TEc2ZtGdy_g0cau7hFJjlRL8",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
