@@ -123,7 +123,7 @@ function MenuCard({ item, index }: { item: typeof menuItems[0]; index: number })
       </div>
 
       {/* Content */}
-      <div className="bg-[#1a1208] p-5 md:p-6">
+      <div className="p-5 md:p-6">
         <h3
           className="text-xl md:text-2xl font-bold mb-2 tracking-tight"
           style={{ color: item.color, fontFamily: "'Playfair Display', serif" }}
@@ -401,7 +401,7 @@ export default function BanquetHallWebsite() {
   { 
     icon: "LC", 
     title: "Live Counters", 
-    desc: "Dosa, chaat, grill, and pasta stations manned by expert chefs for interactive, live dining experiences." 
+    desc: "Chat Panipuri,Tawa Sweet,Fruit stations manned by expert chefs for interactive, live dining experiences." 
   },
   { 
     icon: "CM", 
@@ -537,8 +537,8 @@ export default function BanquetHallWebsite() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { name: "Priya & Rohit", event: "Wedding, Feb 2024", quote: "Grand Vivah turned our dream wedding into reality. The food was extraordinary — every guest still talks about the biryani counter!" },
-              { name: "TechCorp India", event: "Annual Gala, Dec 2023", quote: "The level of professionalism and the sheer variety of the continental spread left our 800 guests completely mesmerised." },
+              { name: "Priya & Arjun", event: "Wedding, Feb 2024", quote: "Grand Vivah turned our dream wedding into reality. The food was extraordinary — every guest still talks about the biryani counter!" },
+              { name: "ISTA GROUP OF INSTITUTIONS", event: "Annual Gala, Dec 2023", quote: "The level of professionalism and the sheer variety of the continental spread left our 800 guests completely mesmerised." },
               { name: "Meera Sharma", event: "50th Birthday, Jan 2024", quote: "From setup to the last bite of dessert — flawless. The team understood our vision and executed it beyond our imagination." },
             ].map((t, i) => (
               <div
@@ -602,6 +602,33 @@ export default function BanquetHallWebsite() {
           </button>
         </div>
       </section>
+
+      {/* ═══════════════════════════════════ FLOATING GET MENU BUTTON ═══════════════════════════════════ */}
+      <button
+        className="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-40 px-6 md:px-8 py-3 md:py-4 rounded-full font-semibold text-sm md:text-base uppercase tracking-widest transition-all duration-300 hover:scale-110 hover:shadow-lg"
+        style={{
+          background: "#C9974B",
+          color: "#0d0a05",
+          boxShadow: "0 4px 20px rgba(201,151,75,0.3)",
+          fontFamily: "'Playfair Display', serif",
+        }}
+        onClick={() => {
+          const link = document.createElement('a');
+          link.href = '/Menu.png';
+          link.download = 'Menu.png';
+          link.click();
+        }}
+        onMouseEnter={(e) => {
+          (e.currentTarget as HTMLButtonElement).style.boxShadow = "0 8px 30px rgba(201,151,75,0.5)";
+          (e.currentTarget as HTMLButtonElement).style.background = "#d4b85f";
+        }}
+        onMouseLeave={(e) => {
+          (e.currentTarget as HTMLButtonElement).style.boxShadow = "0 4px 20px rgba(201,151,75,0.3)";
+          (e.currentTarget as HTMLButtonElement).style.background = "#C9974B";
+        }}
+      >
+        Get Menu
+      </button>
 
       {/* ═══════════════════════════════════ FOOTER ═══════════════════════════════════ */}
       <footer className="py-12 px-6 md:px-20 border-t" style={{ borderColor: "rgba(201,151,75,0.15)", background: "#080603" }}>

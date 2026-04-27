@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 export default function Footer() {
   const [email, setEmail] = useState('');
@@ -41,21 +42,17 @@ export default function Footer() {
                 marginBottom: '16px',
               }}
             >
-              <span
+              <Image
+                src="/logo.png"
+                alt="SLV Logo"
+                width={38}
+                height={38}
+                priority
                 style={{
-                  width: '38px',
-                  height: '38px',
                   borderRadius: '50%',
-                  border: '2px solid #d4a017',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '18px',
-                  color: '#d4a017',
+                  border: '2px solid #090909',
                 }}
-              >
-                🕊
-              </span>
+              />
               <div>
                 <div
                   style={{

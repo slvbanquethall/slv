@@ -1,6 +1,7 @@
 'use client';
 import { Playfair_Display } from 'next/font/google';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -71,23 +72,19 @@ export default function Header() {
               flexShrink: 0,
             }}
           >
-            {/* Bird / dove icon placeholder — swap with your actual SVG/Image */}
-            <span
+            {/* Logo Image */}
+            <Image
+              src="/logo.png"
+              alt="SLV Logo"
+              width={38}
+              height={38}
+              priority
               style={{
-                width: '38px',
-                height: '38px',
                 borderRadius: '50%',
-                border: '2px solid #d4a017',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '18px',
-                color: '#d4a017',
+                border: '2px solid #040404',
                 flexShrink: 0,
               }}
-            >
-              🕊
-            </span>
+            />
             <span style={{ lineHeight: 1.1 }}>
               <span
                 style={{

@@ -30,11 +30,11 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://royalbanquethall.com",
     siteName: "Royal Banquet Hall",
-    title: "Royal Banquet Hall - Premium Event Venue",
+    title: "SLV Banquet HallS - Premium Event Venue",
     description: "Book your perfect event at Royal Banquet Hall. Elegant venue for weddings, corporate events, and celebrations.",
     images: [
       {
-        url: "https://royalbanquethall.com/og-image.jpg",
+        url: "logo.png",
         width: 1200,
         height: 630,
         alt: "Royal Banquet Hall",
