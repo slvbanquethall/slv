@@ -21,10 +21,10 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Royal Banquet Hall - Premium Event Venue",
-  description: "Book your perfect event at Royal Banquet Hall. Elegant venue for weddings, corporate events, and celebrations.",
+  title: "SLV Banquet Hall - Premium Event Venue",
+  description: "Book your perfect event at SLV Banquet Hall. Elegant venue for weddings, corporate events, and celebrations.",
   keywords: seoKeywords,
-  authors: [{ name: "Royal Banquet Hall" }],
+  authors: [{ name: "SLV Banquet Hall" }],
   verification: {
     google: "jEB4iUD-CW9yF3F49k2TEc2ZtGdy_g0cau7hFJjlRL8",
   },
