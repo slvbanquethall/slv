@@ -336,7 +336,7 @@ export default function Footer() {
         </div> */}
 
         {/* Social Links */}
-        <div
+{/*         <div
           style={{
             display: 'flex',
             gap: '20px',
@@ -383,7 +383,7 @@ export default function Footer() {
               <social.Icon size={20} />
             </a>
           ))}
-        </div>
+        </div> */}
 
         {/* Bottom Bar */}
         <div
