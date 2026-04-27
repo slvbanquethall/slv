@@ -614,7 +614,7 @@ export default function BanquetHallWebsite() {
         }}
         onClick={() => {
           const link = document.createElement('a');
-          link.href = '/Menu.png';
+          link.href = '/Menu1.png';
           link.download = 'Menu.png';
           link.click();
         }}

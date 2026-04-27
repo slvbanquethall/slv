@@ -292,7 +292,7 @@ export default function PremierElegance() {
             { value: '200+', label: 'Events Hosted' },
             { value: '2', label: 'Elegant Halls' },
             { value: '5+', label: 'Years of Trust' },
-            { value: '1500', label: 'Seating Capacity' },
+            { value: '300+', label: 'Seating Capacity' },
           ].map((stat) => (
             <div key={stat.label} style={{ textAlign: 'center' }}>
               <div
