@@ -6,14 +6,14 @@ const moments = [
   {
     id: 1,
     src: "/HappyMoments/hm1.mp4",
-    label: "Priya & Arjun's Wedding",
+    label: "Anil's Reception",
     category: "Wedding",
     size: "tall",
   },
   {
     id: 2,
     src: "/HappyMoments/hm2.jpeg",
-    label: "Mehta Family Wedding",
+    label: "Swathi & Sai Kumar Wedding",
     category: "Wedding",
     size: "normal",
   },
@@ -27,14 +27,14 @@ const moments = [
   {
     id: 6,
     src: "/HappyMoments/hm7.mp4",
-    label: "Kapoor-Iyer Wedding",
+    label: "Reddy's Saree Function ",
     category: "Wedding",
     size: "tall",
   },
   {
     id: 7,
     src: "/HappyMoments/hm4.jpeg",
-    label: "Birthday Bash for Aarav",
+    label: "Birthday Bash for Sharanya",
     category: "Celebration",
     size: "normal",
   },
